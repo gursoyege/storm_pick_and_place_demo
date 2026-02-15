@@ -1,0 +1,25 @@
+pick_place_task_manager:
+  ros__parameters:
+    goal_topic: /goal_pose
+    base_frame: fer_link0
+    ee_frame: fer_hand_tcp
+
+    pick_frame: fer_link0
+    pick_xyzquat: [0.60, -0.30, 0.20, 1.0, 0.0, 0.0, 0.0]
+
+    place_frame: fer_link0
+    place_xyzquat: [0.60, 0.30, 0.20, 1.0, 0.0, 0.0, 0.0]
+
+    pregrasp_offset: [0.0, 0.0, 0.10]
+    lift_offset: [0.0, 0.0, 0.15]
+    retreat_offset: [0.0, 0.0, 0.10]
+
+    pos_tolerance: 0.02
+    rot_tolerance_rad: 0.6
+    phase_timeout_sec: 60.0
+    loop_forever: true
+
+    gripper_open_width: 0.039
+    gripper_open_effort: 10.0
+    gripper_close_width: 0.01
+    gripper_close_effort: 30.0

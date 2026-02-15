@@ -1,0 +1,7 @@
+#!/usr/bin/env python3
+from storm_pick_place_demo.pick_place_task_manager_node import main
+
+
+if __name__ == "__main__":
+    main()
+

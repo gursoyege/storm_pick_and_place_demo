@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>storm_pick_place_demo</name>
+  <version>0.0.0</version>
+  <description>
+    Pick-and-place demo using STORM MPPI as outer loop and linear_feedback_controller (torque LFC) as inner loop.
+  </description>
+
+  <maintainer email="codex@openai.com">Codex</maintainer>
+  <license>BSD-2</license>
+
+  <buildtool_depend>ament_cmake_auto</buildtool_depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>rcl_interfaces</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>visualization_msgs</exec_depend>
+  <exec_depend>control_msgs</exec_depend>
+  <exec_depend>franka_msgs</exec_depend>
+
+  <exec_depend>agimus_demos_common</exec_depend>
+  <exec_depend>storm_agimus_bridge</exec_depend>
+
+  <exec_depend>ros2launch</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

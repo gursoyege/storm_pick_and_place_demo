@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="storm_pick_place_environment">
+  <!-- Root frame used by agimus_controller for attaching the robot model. -->
+  <link name="robot_attachment_link" />
+</robot>
+

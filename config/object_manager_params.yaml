@@ -1,0 +1,17 @@
+object_manager:
+  ros__parameters:
+    base_frame: fer_link0
+    objects_markers_topic: /storm_pick_place/objects_markers
+
+    pick_frame: fer_link0
+    pick_xyzquat: [0.60, -0.30, 0.20, 0.0, 0.0, 0.0, 1.0]
+    pick_dims: [0.04, 0.04, 0.04]
+
+    place_frame: fer_link0
+    place_xyzquat: [0.60, 0.30, 0.20, 0.0, 0.0, 0.0, 1.0]
+    place_dims: [0.06, 0.06, 0.02]
+
+    barrier_enabled: true
+    barrier_height: 2.0
+
+    publish_rate_hz: 10.0
